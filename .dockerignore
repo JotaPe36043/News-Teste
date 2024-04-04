@@ -1,0 +1,1053 @@
+# flyctl launch added from .gitignore
+node_modules
+public\hot
+public\storage
+storage\*.key
+vendor
+**\.env
+**\.env.backup
+**\.phpunit.result.cache
+**\docker-compose.override.yml
+**\Homestead.json
+**\Homestead.yaml
+**\npm-debug.log
+**\yarn-error.log
+.idea
+.vscode
+
+# flyctl launch added from bootstrap\cache\.gitignore
+bootstrap\cache\**\*
+!bootstrap\cache\**\.gitignore
+
+# flyctl launch added from database\.gitignore
+database\**\*.sqlite*
+
+# flyctl launch added from storage\app\.gitignore
+storage\app\**\*
+!storage\app\**\public
+!storage\app\**\.gitignore
+
+# flyctl launch added from storage\app\public\.gitignore
+storage\app\public\**\*
+!storage\app\public\**\.gitignore
+
+# flyctl launch added from storage\framework\.gitignore
+storage\framework\**\compiled.php
+storage\framework\**\config.php
+storage\framework\**\down
+storage\framework\**\events.scanned.php
+storage\framework\**\maintenance.php
+storage\framework\**\routes.php
+storage\framework\**\routes.scanned.php
+storage\framework\**\schedule-*
+storage\framework\**\services.json
+
+# flyctl launch added from storage\framework\cache\.gitignore
+storage\framework\cache\**\*
+!storage\framework\cache\**\data
+!storage\framework\cache\**\.gitignore
+
+# flyctl launch added from storage\framework\cache\data\.gitignore
+storage\framework\cache\data\**\*
+!storage\framework\cache\data\**\.gitignore
+
+# flyctl launch added from storage\framework\sessions\.gitignore
+storage\framework\sessions\**\*
+!storage\framework\sessions\**\.gitignore
+
+# flyctl launch added from storage\framework\testing\.gitignore
+storage\framework\testing\**\*
+!storage\framework\testing\**\.gitignore
+
+# flyctl launch added from storage\framework\views\.gitignore
+storage\framework\views\**\*
+!storage\framework\views\**\.gitignore
+
+# flyctl launch added from storage\logs\.gitignore
+storage\logs\**\*
+!storage\logs\**\.gitignore
+
+# flyctl launch added from vendor\asm89\stack-cors\.gitignore
+vendor\asm89\stack-cors\**\phpunit.xml
+vendor\asm89\stack-cors\**\composer.lock
+vendor\asm89\stack-cors\**\composer.phar
+vendor\asm89\stack-cors\vendor
+vendor\asm89\stack-cors\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\brick\math\.gitignore
+vendor\brick\math\vendor
+vendor\brick\math\composer.lock
+vendor\brick\math\.phpunit.result.cache
+
+# flyctl launch added from vendor\carbonphp\carbon-doctrine-types\.gitignore
+vendor\carbonphp\carbon-doctrine-types\**\.idea
+vendor\carbonphp\carbon-doctrine-types\**\composer.lock
+vendor\carbonphp\carbon-doctrine-types\**\composer.phar
+vendor\carbonphp\carbon-doctrine-types\vendor
+vendor\carbonphp\carbon-doctrine-types\**\*.cache
+
+# flyctl launch added from vendor\dflydev\dot-access-data\.gitignore
+vendor\dflydev\dot-access-data\**\.phpcs-cache
+vendor\dflydev\dot-access-data\**\.phpunit.result.cache
+vendor\dflydev\dot-access-data\**\composer.lock
+vendor\dflydev\dot-access-data\**\phpcs.xml
+vendor\dflydev\dot-access-data\**\phpstan.neon
+vendor\dflydev\dot-access-data\**\phpunit.xml
+vendor\dflydev\dot-access-data\**\psalm.xml
+vendor\dflydev\dot-access-data\**\vendor
+
+# flyctl launch added from vendor\doctrine\inflector\.gitignore
+vendor\doctrine\inflector\vendor
+vendor\doctrine\inflector\composer.lock
+vendor\doctrine\inflector\composer.phar
+vendor\doctrine\inflector\phpunit.xml
+vendor\doctrine\inflector\.phpunit.result.cache
+vendor\doctrine\inflector\phpcs.xml
+vendor\doctrine\inflector\.phpcs-cache
+vendor\doctrine\inflector\phpstan.neon
+
+# flyctl launch added from vendor\doctrine\instantiator\.gitignore
+vendor\doctrine\instantiator\**\phpunit.xml
+vendor\doctrine\instantiator\.phpunit.result.cache
+vendor\doctrine\instantiator\**\build
+vendor\doctrine\instantiator\**\vendor
+vendor\doctrine\instantiator\composer.lock
+vendor\doctrine\instantiator\**\coverage.clover
+vendor\doctrine\instantiator\phpcs.xml
+vendor\doctrine\instantiator\.phpcs-cache
+vendor\doctrine\instantiator\phpstan.neon
+
+# flyctl launch added from vendor\doctrine\lexer\.gitignore
+vendor\doctrine\lexer\vendor
+vendor\doctrine\lexer\composer.lock
+vendor\doctrine\lexer\phpunit.xml
+vendor\doctrine\lexer\.phpunit.cache
+vendor\doctrine\lexer\phpcs.xml
+vendor\doctrine\lexer\.phpcs-cache
+
+# flyctl launch added from vendor\dragonmantank\cron-expression\.gitignore
+vendor\dragonmantank\cron-expression\**\nbproject
+vendor\dragonmantank\cron-expression\**\coverage
+vendor\dragonmantank\cron-expression\**\phpunit.xml
+vendor\dragonmantank\cron-expression\**\vendor
+vendor\dragonmantank\cron-expression\**\composer.phar
+vendor\dragonmantank\cron-expression\**\composer.lock
+vendor\dragonmantank\cron-expression\**\.idea
+vendor\dragonmantank\cron-expression\**\.php_cs.cache
+
+# flyctl launch added from vendor\egulias\email-validator\.gitignore
+vendor\egulias\email-validator\**\build
+vendor\egulias\email-validator\**\report
+vendor\egulias\email-validator\**\vendor
+vendor\egulias\email-validator\**\composer.lock
+vendor\egulias\email-validator\**\phpunit.result.cache
+vendor\egulias\email-validator\**\.phpunit*
+vendor\egulias\email-validator\**\.idea
+vendor\egulias\email-validator\**\.vscode
+vendor\egulias\email-validator\**\.php-version
+
+# flyctl launch added from vendor\fakerphp\faker\.gitignore
+vendor\fakerphp\faker\.build
+vendor\fakerphp\faker\vendor
+vendor\fakerphp\faker\vendor-bin\php-cs-fixer\vendor
+vendor\fakerphp\faker\vendor-bin\phpstan\vendor
+vendor\fakerphp\faker\vendor-bin\psalm\vendor
+vendor\fakerphp\faker\vendor-bin\rector\vendor
+vendor\fakerphp\faker\.php-cs-fixer.cache
+vendor\fakerphp\faker\composer.lock
+
+# flyctl launch added from vendor\filp\whoops\.gitignore
+vendor\filp\whoops\**\composer.lock
+vendor\filp\whoops\**\phpunit.xml
+vendor\filp\whoops\**\report
+vendor\filp\whoops\**\vendor
+
+# flyctl launch added from vendor\fly-apps\dockerfile-laravel\.gitignore
+vendor\fly-apps\dockerfile-laravel\vendor
+vendor\fly-apps\dockerfile-laravel\.idea
+vendor\fly-apps\dockerfile-laravel\.vscode
+vendor\fly-apps\dockerfile-laravel\.vagrant
+vendor\fly-apps\dockerfile-laravel\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\fly-apps\dockerfile-laravel\storage\app\.gitignore
+vendor\fly-apps\dockerfile-laravel\storage\app\**\*
+!vendor\fly-apps\dockerfile-laravel\storage\app\**\.gitignore
+
+# flyctl launch added from vendor\fly-apps\dockerfile-laravel\storage\framework\cache\.gitignore
+vendor\fly-apps\dockerfile-laravel\storage\framework\cache\**\*
+!vendor\fly-apps\dockerfile-laravel\storage\framework\cache\**\.gitignore
+
+# flyctl launch added from vendor\fly-apps\dockerfile-laravel\storage\framework\views\.gitignore
+vendor\fly-apps\dockerfile-laravel\storage\framework\views\**\*
+!vendor\fly-apps\dockerfile-laravel\storage\framework\views\**\.gitignore
+
+# flyctl launch added from vendor\fruitcake\laravel-cors\.gitignore
+vendor\fruitcake\laravel-cors\vendor
+vendor\fruitcake\laravel-cors\**\composer.phar
+vendor\fruitcake\laravel-cors\**\composer.lock
+vendor\fruitcake\laravel-cors\**\.DS_Store
+vendor\fruitcake\laravel-cors\**\.phpunit.result.cache
+vendor\fruitcake\laravel-cors\tests\Browser
+
+# flyctl launch added from vendor\fruitcake\php-cors\.gitignore
+vendor\fruitcake\php-cors\**\phpunit.xml
+vendor\fruitcake\php-cors\**\composer.lock
+vendor\fruitcake\php-cors\**\composer.phar
+vendor\fruitcake\php-cors\vendor
+vendor\fruitcake\php-cors\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\graham-campbell\result-type\.gitignore
+vendor\graham-campbell\result-type\**\.phpunit.result.cache
+vendor\graham-campbell\result-type\**\composer.lock
+vendor\graham-campbell\result-type\**\phpunit.xml
+vendor\graham-campbell\result-type\**\vendor
+
+# flyctl launch added from vendor\guzzlehttp\guzzle\.gitignore
+vendor\guzzlehttp\guzzle\**\.php-cs-fixer.php
+vendor\guzzlehttp\guzzle\**\.php-cs-fixer.cache
+vendor\guzzlehttp\guzzle\**\.phpunit.result.cache
+vendor\guzzlehttp\guzzle\**\composer.lock
+vendor\guzzlehttp\guzzle\**\vendor
+vendor\guzzlehttp\guzzle\phpstan.neon
+vendor\guzzlehttp\guzzle\phpunit.xml
+
+vendor\guzzlehttp\guzzle\**\build
+vendor\guzzlehttp\guzzle\**\artifacts
+vendor\guzzlehttp\guzzle\**\docs\_build
+vendor\guzzlehttp\guzzle\**\docs\*.pyc
+
+# flyctl launch added from vendor\guzzlehttp\promises\.gitignore
+vendor\guzzlehttp\promises\**\artifacts
+vendor\guzzlehttp\promises\**\vendor
+vendor\guzzlehttp\promises\**\composer.lock
+vendor\guzzlehttp\promises\**\phpunit.xml
+vendor\guzzlehttp\promises\**\.php-cs-fixer.php
+vendor\guzzlehttp\promises\**\.php-cs-fixer.cache
+vendor\guzzlehttp\promises\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\guzzlehttp\psr7\.gitignore
+vendor\guzzlehttp\psr7\**\.php-cs-fixer.php
+vendor\guzzlehttp\psr7\**\.php-cs-fixer.cache
+vendor\guzzlehttp\psr7\**\.phpunit.result.cache
+vendor\guzzlehttp\psr7\**\composer.lock
+vendor\guzzlehttp\psr7\**\vendor
+vendor\guzzlehttp\psr7\phpstan.neon
+vendor\guzzlehttp\psr7\phpunit.xml
+
+# flyctl launch added from vendor\guzzlehttp\uri-template\.gitignore
+vendor\guzzlehttp\uri-template\**\.php-cs-fixer.php
+vendor\guzzlehttp\uri-template\**\.php-cs-fixer.cache
+vendor\guzzlehttp\uri-template\**\.phpunit.result.cache
+vendor\guzzlehttp\uri-template\**\build
+vendor\guzzlehttp\uri-template\**\composer.lock
+vendor\guzzlehttp\uri-template\**\vendor
+vendor\guzzlehttp\uri-template\**\phpstan.neon
+vendor\guzzlehttp\uri-template\**\phpunit.xml
+
+# flyctl launch added from vendor\hamcrest\hamcrest-php\.gitignore
+vendor\hamcrest\hamcrest-php\**\composer.lock
+vendor\hamcrest\hamcrest-php\**\vendor
+
+# flyctl launch added from vendor\laravel\framework\.gitignore
+vendor\laravel\framework\.phpunit.cache
+vendor\laravel\framework\vendor
+vendor\laravel\framework\**\composer.phar
+vendor\laravel\framework\**\composer.lock
+vendor\laravel\framework\**\.DS_Store
+vendor\laravel\framework\**\Thumbs.db
+vendor\laravel\framework\phpunit.xml
+vendor\laravel\framework\.idea
+vendor\laravel\framework\.fleet
+vendor\laravel\framework\.vscode
+vendor\laravel\framework\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\laravel\sail\.gitignore
+vendor\laravel\sail\vendor
+vendor\laravel\sail\**\composer.lock
+
+# flyctl launch added from vendor\laravel\sanctum\.gitignore
+vendor\laravel\sanctum\vendor
+vendor\laravel\sanctum\**\composer.lock
+vendor\laravel\sanctum\phpunit.xml
+vendor\laravel\sanctum\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\laravel\serializable-closure\.gitignore
+vendor\laravel\serializable-closure\vendor
+vendor\laravel\serializable-closure\**\composer.lock
+vendor\laravel\serializable-closure\phpunit.xml
+vendor\laravel\serializable-closure\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\laravel\tinker\.gitignore
+vendor\laravel\tinker\vendor
+vendor\laravel\tinker\**\composer.lock
+vendor\laravel\tinker\phpunit.xml
+vendor\laravel\tinker\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\league\commonmark\.gitignore
+vendor\league\commonmark\.idea
+vendor\league\commonmark\.phpcs-cache
+vendor\league\commonmark\.phpunit.result.cache
+vendor\league\commonmark\.phpunit.cache
+vendor\league\commonmark\build
+vendor\league\commonmark\docs\_site
+vendor\league\commonmark\**\composer.lock
+vendor\league\commonmark\**\composer.phar
+vendor\league\commonmark\vendor
+vendor\league\commonmark\**\phpunit.xml
+
+
+# flyctl launch added from vendor\league\commonmark\docs\.gitignore
+vendor\league\commonmark\docs\**\.jekyll-cache
+
+# flyctl launch added from vendor\league\config\.gitignore
+vendor\league\config\.idea
+vendor\league\config\.phpcs-cache
+vendor\league\config\.phpunit.result.cache
+vendor\league\config\build
+vendor\league\config\docs\_site
+vendor\league\config\**\composer.lock
+vendor\league\config\**\composer.phar
+vendor\league\config\vendor
+vendor\league\config\**\phpunit.xml
+
+# flyctl launch added from vendor\league\config\docs\.gitignore
+vendor\league\config\docs\**\.jekyll-cache
+
+# flyctl launch added from vendor\league\flysystem\.gitignore
+vendor\league\flysystem\vendor
+vendor\league\flysystem\coverage
+vendor\league\flysystem\.phpunit.result.cache
+vendor\league\flysystem\phpunit.xml
+vendor\league\flysystem\composer.lock
+vendor\league\flysystem\index_*.php
+vendor\league\flysystem\.php-cs-fixer.php
+vendor\league\flysystem\.php-cs-fixer.cache
+vendor\league\flysystem\google-cloud-service-account.json
+vendor\league\flysystem\**\.idea
+
+# flyctl launch added from vendor\league\flysystem\bin\.gitignore
+vendor\league\flysystem\bin\**\renamespace.php
+
+# flyctl launch added from vendor\league\flysystem\src\WebDAV\resources\.gitignore
+vendor\league\flysystem\src\WebDAV\resources\**\data
+vendor\league\flysystem\src\WebDAV\resources\**\index.php
+
+# flyctl launch added from vendor\league\flysystem\test_files\.gitignore
+vendor\league\flysystem\test_files\**\.data
+
+# flyctl launch added from vendor\league\mime-type-detection\.gitignore
+vendor\league\mime-type-detection\vendor
+vendor\league\mime-type-detection\coverage
+vendor\league\mime-type-detection\.phpunit.result.cache
+vendor\league\mime-type-detection\.php-cs-fixer.php
+vendor\league\mime-type-detection\.php-cs-fixer.cache
+vendor\league\mime-type-detection\phpunit.xml
+vendor\league\mime-type-detection\composer.lock
+
+# flyctl launch added from vendor\mockery\mockery\.gitignore
+vendor\mockery\mockery\**\*.DS_store
+vendor\mockery\mockery\**\*.sublime-project
+vendor\mockery\mockery\**\*~
+vendor\mockery\mockery\**\.cache
+vendor\mockery\mockery\**\.idea\*
+vendor\mockery\mockery\**\.phpdoc
+vendor\mockery\mockery\**\.phpunit.result.cache
+vendor\mockery\mockery\**\build
+vendor\mockery\mockery\**\composer.phar
+vendor\mockery\mockery\**\docs\api
+vendor\mockery\mockery\**\library\Hamcrest\*
+vendor\mockery\mockery\**\pearfarm.spec
+vendor\mockery\mockery\**\phpDocumentor.phar*
+vendor\mockery\mockery\**\phpunit.xml
+vendor\mockery\mockery\**\test.php
+vendor\mockery\mockery\**\vendor
+
+# flyctl launch added from vendor\mockery\mockery\docs\.gitignore
+vendor\mockery\mockery\docs\**\_build
+
+# flyctl launch added from vendor\monolog\monolog\.gitignore
+vendor\monolog\monolog\**\vendor
+vendor\monolog\monolog\**\composer.phar
+vendor\monolog\monolog\**\phpunit.xml
+vendor\monolog\monolog\**\composer.lock
+vendor\monolog\monolog\**\.DS_Store
+vendor\monolog\monolog\**\.php_cs.cache
+vendor\monolog\monolog\**\.hg
+vendor\monolog\monolog\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\myclabs\deep-copy\.gitignore
+vendor\myclabs\deep-copy\composer.phar
+vendor\myclabs\deep-copy\composer.lock
+vendor\myclabs\deep-copy\vendor\*
+vendor\myclabs\deep-copy\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\nesbot\carbon\.gitignore
+vendor\nesbot\carbon\**\.idea
+vendor\nesbot\carbon\**\.vscode
+vendor\nesbot\carbon\**\*.iml
+vendor\nesbot\carbon\**\.php-cs-fixer.php
+vendor\nesbot\carbon\**\.php-cs-fixer.cache
+vendor\nesbot\carbon\**\vendor
+vendor\nesbot\carbon\**\composer.phar
+vendor\nesbot\carbon\**\composer.lock
+vendor\nesbot\carbon\**\coverage.xml
+vendor\nesbot\carbon\**\coverage
+vendor\nesbot\carbon\**\phpunit.xml
+vendor\nesbot\carbon\**\Carbon-*.zip
+vendor\nesbot\carbon\**\*.phpunit.result.cache
+vendor\nesbot\carbon\nbproject
+
+# flyctl launch added from vendor\nette\schema\.gitignore
+vendor\nette\schema\vendor
+vendor\nette\schema\composer.lock
+
+# flyctl launch added from vendor\nette\schema\tests\.gitignore
+vendor\nette\schema\tests\*\output
+vendor\nette\schema\tests\test.log
+vendor\nette\schema\tests\tmp
+
+# flyctl launch added from vendor\nette\utils\.gitignore
+vendor\nette\utils\vendor
+vendor\nette\utils\composer.lock
+
+# flyctl launch added from vendor\nette\utils\tests\.gitignore
+vendor\nette\utils\tests\*\output
+vendor\nette\utils\tests\test.log
+vendor\nette\utils\tests\tmp
+
+# flyctl launch added from vendor\nikic\php-parser\.gitignore
+vendor\nikic\php-parser\**\.idea
+vendor\nikic\php-parser\**\vendor
+vendor\nikic\php-parser\**\composer.lock
+vendor\nikic\php-parser\**\grammar\kmyacc.exe
+vendor\nikic\php-parser\**\grammar\y.output
+vendor\nikic\php-parser\**\.phpunit.result.cache
+vendor\nikic\php-parser\**\.php-cs-fixer.cache
+
+# flyctl launch added from vendor\nunomaduro\collision\.gitignore
+vendor\nunomaduro\collision\**\.idea
+vendor\nunomaduro\collision\**\.vscode
+vendor\nunomaduro\collision\builds
+vendor\nunomaduro\collision\database
+vendor\nunomaduro\collision\vendor
+vendor\nunomaduro\collision\**\.php-cs-fixer.cache
+vendor\nunomaduro\collision\**\.phpunit.result.cache
+vendor\nunomaduro\collision\**\.twgit_features_subject
+vendor\nunomaduro\collision\**\composer.lock
+vendor\nunomaduro\collision\**\coverage.xml
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\node_modules
+vendor\nunomaduro\collision\tests\LaravelApp\public\hot
+vendor\nunomaduro\collision\tests\LaravelApp\public\storage
+vendor\nunomaduro\collision\tests\LaravelApp\storage\*.key
+vendor\nunomaduro\collision\tests\LaravelApp\vendor
+vendor\nunomaduro\collision\tests\LaravelApp\**\.temp\coverage
+vendor\nunomaduro\collision\tests\LaravelApp\**\.env.backup
+vendor\nunomaduro\collision\tests\LaravelApp\**\.phpunit.result.cache
+vendor\nunomaduro\collision\tests\LaravelApp\**\Homestead.json
+vendor\nunomaduro\collision\tests\LaravelApp\**\Homestead.yaml
+vendor\nunomaduro\collision\tests\LaravelApp\**\npm-debug.log
+vendor\nunomaduro\collision\tests\LaravelApp\**\yarn-error.log
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\bootstrap\cache\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\bootstrap\cache\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\bootstrap\cache\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\database\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\database\**\*.sqlite
+vendor\nunomaduro\collision\tests\LaravelApp\database\**\*.sqlite-journal
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\app\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\app\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\app\**\public
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\app\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\app\public\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\app\public\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\app\public\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\config.php
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\routes.php
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\schedule-*
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\compiled.php
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\services.json
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\events.scanned.php
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\routes.scanned.php
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\**\down
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\**\data
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\data\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\data\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\cache\data\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\sessions\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\sessions\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\sessions\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\testing\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\testing\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\testing\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\views\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\views\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\framework\views\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\collision\tests\LaravelApp\storage\logs\.gitignore
+vendor\nunomaduro\collision\tests\LaravelApp\storage\logs\**\*
+!vendor\nunomaduro\collision\tests\LaravelApp\storage\logs\**\.gitignore
+
+# flyctl launch added from vendor\nunomaduro\termwind\.gitignore
+vendor\nunomaduro\termwind\.phpunit.result.cache
+vendor\nunomaduro\termwind\.php-cs-fixer.cache
+vendor\nunomaduro\termwind\.php-cs-fixer.php
+vendor\nunomaduro\termwind\.idea
+vendor\nunomaduro\termwind\composer.lock
+vendor\nunomaduro\termwind\phpunit.xml
+vendor\nunomaduro\termwind\vendor
+vendor\nunomaduro\termwind\**\*.swp
+vendor\nunomaduro\termwind\**\*.swo
+
+# flyctl launch added from vendor\phar-io\manifest\.gitignore
+vendor\phar-io\manifest\.idea
+vendor\phar-io\manifest\.php_cs.cache
+vendor\phar-io\manifest\src\autoload.php
+vendor\phar-io\manifest\tools
+vendor\phar-io\manifest\vendor
+
+vendor\phar-io\manifest\build
+vendor\phar-io\manifest\**\.phpunit.result.cache
+vendor\phar-io\manifest\**\.php-cs-fixer.cache
+
+# flyctl launch added from vendor\phar-io\version\.gitignore
+vendor\phar-io\version\.idea
+vendor\phar-io\version\.php_cs.cache
+vendor\phar-io\version\composer.lock
+vendor\phar-io\version\src\autoload.php
+vendor\phar-io\version\tools
+vendor\phar-io\version\vendor
+vendor\phar-io\version\**\build\coverage
+vendor\phar-io\version\**\.phpunit.result.cache
+
+# flyctl launch added from vendor\phpoption\phpoption\.gitignore
+vendor\phpoption\phpoption\**\.phpunit.result.cache
+vendor\phpoption\phpoption\**\composer.lock
+vendor\phpoption\phpoption\**\phpstan.src.neon
+vendor\phpoption\phpoption\**\phpstan.tests.neon
+vendor\phpoption\phpoption\**\phpunit.xml
+vendor\phpoption\phpoption\**\vendor
+
+# flyctl launch added from vendor\phpunit\php-code-coverage\.gitignore
+vendor\phpunit\php-code-coverage\.idea
+vendor\phpunit\php-code-coverage\.php-cs-fixer.php
+vendor\phpunit\php-code-coverage\.php-cs-fixer.cache
+vendor\phpunit\php-code-coverage\.phpunit.cache
+vendor\phpunit\php-code-coverage\.psalm\cache
+vendor\phpunit\php-code-coverage\composer.lock
+vendor\phpunit\php-code-coverage\vendor
+
+# flyctl launch added from vendor\phpunit\php-file-iterator\.gitignore
+vendor\phpunit\php-file-iterator\.idea
+vendor\phpunit\php-file-iterator\vendor
+vendor\phpunit\php-file-iterator\.php-cs-fixer.php
+vendor\phpunit\php-file-iterator\.php-cs-fixer.cache
+vendor\phpunit\php-file-iterator\composer.lock
+vendor\phpunit\php-file-iterator\.phpunit.result.cache
+
+# flyctl launch added from vendor\phpunit\php-invoker\.gitignore
+vendor\phpunit\php-invoker\.idea
+vendor\phpunit\php-invoker\.php_cs
+vendor\phpunit\php-invoker\.php_cs.cache
+vendor\phpunit\php-invoker\.phpunit.result.cache
+vendor\phpunit\php-invoker\composer.lock
+vendor\phpunit\php-invoker\vendor
+
+# flyctl launch added from vendor\phpunit\php-text-template\.gitignore
+vendor\phpunit\php-text-template\.idea
+vendor\phpunit\php-text-template\composer.lock
+vendor\phpunit\php-text-template\vendor
+vendor\phpunit\php-text-template\.php_cs.cache
+vendor\phpunit\php-text-template\.phpunit.result.cache
+
+# flyctl launch added from vendor\phpunit\php-timer\.gitignore
+vendor\phpunit\php-timer\.idea
+vendor\phpunit\php-timer\.php_cs
+vendor\phpunit\php-timer\.php_cs.cache
+vendor\phpunit\php-timer\.phpunit.result.cache
+vendor\phpunit\php-timer\composer.lock
+vendor\phpunit\php-timer\vendor
+
+# flyctl launch added from vendor\phpunit\phpunit\.gitignore
+# PhpStorm
+vendor\phpunit\phpunit\.idea
+
+# Composer
+vendor\phpunit\phpunit\vendor
+
+# Apache Ant
+vendor\phpunit\phpunit\.ant_targets
+
+# Build artifacts and temporary files
+vendor\phpunit\phpunit\build\artifacts
+vendor\phpunit\phpunit\build\tmp
+vendor\phpunit\phpunit\tests\autoload.php
+
+# PHP-CS-Fixer
+vendor\phpunit\phpunit\.php-cs-fixer.php
+vendor\phpunit\phpunit\.php-cs-fixer.cache
+
+# Psalm
+vendor\phpunit\phpunit\.psalm\cache
+
+# PHPUnit
+vendor\phpunit\phpunit\.phpunit.cache
+vendor\phpunit\phpunit\**\.phpunit.result.cache
+
+# Temporary files generated by PHPT test runner
+vendor\phpunit\phpunit\tests\end-to-end\*.diff
+vendor\phpunit\phpunit\tests\end-to-end\*.exp
+vendor\phpunit\phpunit\tests\end-to-end\*.log
+vendor\phpunit\phpunit\tests\end-to-end\*.out
+vendor\phpunit\phpunit\tests\end-to-end\*.php
+
+# flyctl launch added from vendor\phpunit\phpunit\build\scripts\phar-set-timestamps\vendor\seld\phar-utils\.gitignore
+vendor\phpunit\phpunit\build\scripts\phar-set-timestamps\vendor\seld\phar-utils\vendor
+
+# flyctl launch added from vendor\psr\clock\.gitignore
+vendor\psr\clock\vendor
+vendor\psr\clock\**\composer.lock
+
+# flyctl launch added from vendor\psr\container\.gitignore
+vendor\psr\container\**\composer.lock
+vendor\psr\container\**\composer.phar
+vendor\psr\container\vendor
+
+# flyctl launch added from vendor\psr\event-dispatcher\.gitignore
+vendor\psr\event-dispatcher\vendor
+vendor\psr\event-dispatcher\**\composer.lock
+
+# flyctl launch added from vendor\psr\http-factory\.gitignore
+vendor\psr\http-factory\**\composer.lock
+vendor\psr\http-factory\**\vendor
+
+# flyctl launch added from vendor\psr\log\.gitignore
+vendor\psr\log\**\vendor
+
+# flyctl launch added from vendor\psr\simple-cache\.gitignore
+vendor\psr\simple-cache\**\build
+vendor\psr\simple-cache\**\composer.lock
+vendor\psr\simple-cache\**\docs
+vendor\psr\simple-cache\**\vendor
+
+# flyctl launch added from vendor\psy\psysh\.gitignore
+vendor\psy\psysh\**\__pycache__
+vendor\psy\psysh\**\*.pyc
+vendor\psy\psysh\.phpunit.result.cache
+vendor\psy\psysh\build
+vendor\psy\psysh\composer.lock
+vendor\psy\psysh\dist
+vendor\psy\psysh\phpstan.neon
+vendor\psy\psysh\vendor-bin\*\vendor
+vendor\psy\psysh\vendor-bin\phpstan\composer.lock
+vendor\psy\psysh\vendor-bin\phpunit\composer.lock
+vendor\psy\psysh\vendor
+
+# flyctl launch added from vendor\ralouphie\getallheaders\.gitignore
+vendor\ralouphie\getallheaders\**\.idea
+vendor\ralouphie\getallheaders\**\.DS_store
+vendor\ralouphie\getallheaders\vendor
+vendor\ralouphie\getallheaders\**\composer.phar
+vendor\ralouphie\getallheaders\**\composer.lock
+
+# flyctl launch added from vendor\ramsey\collection\.gitignore
+vendor\ramsey\collection\**\captainhook.config.json
+vendor\ramsey\collection\**\composer.lock
+vendor\ramsey\collection\**\phpcs.xml
+vendor\ramsey\collection\**\phpunit.xml
+vendor\ramsey\collection\**\vendor
+
+# flyctl launch added from vendor\ramsey\collection\build\.gitignore
+vendor\ramsey\collection\build\**\*
+!vendor\ramsey\collection\build\**\.gitignore
+!vendor\ramsey\collection\build\**\cache
+!vendor\ramsey\collection\build\**\cache\.gitkeep
+!vendor\ramsey\collection\build\**\logs
+!vendor\ramsey\collection\build\**\logs\.gitkeep
+
+# flyctl launch added from vendor\ramsey\uuid\.gitignore
+vendor\ramsey\uuid\captainhook.config.json
+vendor\ramsey\uuid\phpcs.xml
+vendor\ramsey\uuid\phpunit.xml
+vendor\ramsey\uuid\vendor
+
+# flyctl launch added from vendor\ramsey\uuid\build\.gitignore
+vendor\ramsey\uuid\build\**\*
+!vendor\ramsey\uuid\build\**\.gitignore
+!vendor\ramsey\uuid\build\**\cache
+!vendor\ramsey\uuid\build\**\cache\.gitkeep
+!vendor\ramsey\uuid\build\**\logs
+!vendor\ramsey\uuid\build\**\logs\.gitkeep
+
+# flyctl launch added from vendor\ramsey\uuid\docs\.gitignore
+vendor\ramsey\uuid\docs\**\_build
+
+# flyctl launch added from vendor\ramsey\uuid\resources\vagrant\.gitignore
+vendor\ramsey\uuid\resources\vagrant\**\.vagrant
+
+# flyctl launch added from vendor\sebastian\cli-parser\.gitignore
+vendor\sebastian\cli-parser\.idea
+vendor\sebastian\cli-parser\.php_cs
+vendor\sebastian\cli-parser\.php_cs.cache
+vendor\sebastian\cli-parser\.phpunit.cache
+vendor\sebastian\cli-parser\composer.lock
+vendor\sebastian\cli-parser\vendor
+
+# flyctl launch added from vendor\sebastian\code-unit\.gitignore
+vendor\sebastian\code-unit\.idea
+vendor\sebastian\code-unit\.php_cs
+vendor\sebastian\code-unit\.php_cs.cache
+vendor\sebastian\code-unit\.phpunit.result.cache
+vendor\sebastian\code-unit\composer.lock
+vendor\sebastian\code-unit\vendor
+
+# flyctl launch added from vendor\sebastian\code-unit-reverse-lookup\.gitignore
+vendor\sebastian\code-unit-reverse-lookup\.idea
+vendor\sebastian\code-unit-reverse-lookup\.php_cs
+vendor\sebastian\code-unit-reverse-lookup\.php_cs.cache
+vendor\sebastian\code-unit-reverse-lookup\.phpunit.result.cache
+vendor\sebastian\code-unit-reverse-lookup\composer.lock
+vendor\sebastian\code-unit-reverse-lookup\vendor
+
+# flyctl launch added from vendor\sebastian\comparator\.gitignore
+vendor\sebastian\comparator\.idea
+vendor\sebastian\comparator\.php_cs
+vendor\sebastian\comparator\.php_cs.cache
+vendor\sebastian\comparator\.phpunit.result.cache
+vendor\sebastian\comparator\.psalm\cache
+vendor\sebastian\comparator\composer.lock
+vendor\sebastian\comparator\vendor
+
+# flyctl launch added from vendor\sebastian\complexity\.gitignore
+vendor\sebastian\complexity\.idea
+vendor\sebastian\complexity\.php_cs
+vendor\sebastian\complexity\.php_cs.cache
+vendor\sebastian\complexity\.phpunit.result.cache
+vendor\sebastian\complexity\composer.lock
+vendor\sebastian\complexity\vendor
+
+# flyctl launch added from vendor\sebastian\diff\.gitignore
+vendor\sebastian\diff\.idea
+vendor\sebastian\diff\.php_cs
+vendor\sebastian\diff\.php_cs.cache
+vendor\sebastian\diff\.phpunit.result.cache
+vendor\sebastian\diff\.psalm\cache
+vendor\sebastian\diff\composer.lock
+vendor\sebastian\diff\vendor
+
+# flyctl launch added from vendor\sebastian\diff\tests\fixtures\out\.gitignore
+# reset all ignore rules to create sandbox for integration test
+!vendor\sebastian\diff\tests\fixtures\out\**
+
+# flyctl launch added from vendor\sebastian\environment\.gitignore
+vendor\sebastian\environment\.idea
+vendor\sebastian\environment\.php-cs-fixer.php
+vendor\sebastian\environment\.php-cs-fixer.cache
+vendor\sebastian\environment\.phpunit.result.cache
+vendor\sebastian\environment\.psalm\cache
+vendor\sebastian\environment\composer.lock
+vendor\sebastian\environment\vendor
+
+# flyctl launch added from vendor\sebastian\exporter\.gitignore
+vendor\sebastian\exporter\.idea
+vendor\sebastian\exporter\.php-cs-fixer.php
+vendor\sebastian\exporter\.php-cs-fixer.cache
+vendor\sebastian\exporter\.phpunit.cache
+vendor\sebastian\exporter\.psalm\cache
+vendor\sebastian\exporter\composer.lock
+vendor\sebastian\exporter\vendor
+
+# flyctl launch added from vendor\sebastian\global-state\.gitignore
+vendor\sebastian\global-state\.idea
+vendor\sebastian\global-state\.php-cs-fixer.php
+vendor\sebastian\global-state\.php-cs-fixer.cache
+vendor\sebastian\global-state\.phpunit.result.cache
+vendor\sebastian\global-state\.psalm\cache
+vendor\sebastian\global-state\composer.lock
+vendor\sebastian\global-state\vendor
+
+# flyctl launch added from vendor\sebastian\lines-of-code\.gitignore
+vendor\sebastian\lines-of-code\.idea
+vendor\sebastian\lines-of-code\.php_cs
+vendor\sebastian\lines-of-code\.php_cs.cache
+vendor\sebastian\lines-of-code\.phpunit.result.cache
+vendor\sebastian\lines-of-code\composer.lock
+vendor\sebastian\lines-of-code\vendor
+
+# flyctl launch added from vendor\sebastian\object-enumerator\.gitignore
+vendor\sebastian\object-enumerator\.idea
+vendor\sebastian\object-enumerator\.php_cs
+vendor\sebastian\object-enumerator\.php_cs.cache
+vendor\sebastian\object-enumerator\.phpunit.result.cache
+vendor\sebastian\object-enumerator\composer.lock
+vendor\sebastian\object-enumerator\vendor
+
+# flyctl launch added from vendor\sebastian\object-reflector\.gitignore
+vendor\sebastian\object-reflector\.idea
+vendor\sebastian\object-reflector\.php_cs
+vendor\sebastian\object-reflector\.php_cs.cache
+vendor\sebastian\object-reflector\.phpunit.result.cache
+vendor\sebastian\object-reflector\composer.lock
+vendor\sebastian\object-reflector\vendor
+
+# flyctl launch added from vendor\sebastian\recursion-context\.gitignore
+vendor\sebastian\recursion-context\.idea
+vendor\sebastian\recursion-context\composer.lock
+vendor\sebastian\recursion-context\vendor
+vendor\sebastian\recursion-context\.php-cs-fixer.cache
+vendor\sebastian\recursion-context\.phpunit.result.cache
+
+# flyctl launch added from vendor\sebastian\resource-operations\.gitignore
+vendor\sebastian\resource-operations\.idea
+vendor\sebastian\resource-operations\.php_cs.cache
+vendor\sebastian\resource-operations\build\FunctionSignatureMap.php
+vendor\sebastian\resource-operations\composer.lock
+vendor\sebastian\resource-operations\vendor
+vendor\sebastian\resource-operations\.phpunit.result.cache
+
+# flyctl launch added from vendor\sebastian\type\.gitignore
+vendor\sebastian\type\.idea
+vendor\sebastian\type\.php-cs-fixer.php
+vendor\sebastian\type\.php-cs-fixer.cache
+vendor\sebastian\type\.phpunit.cache
+vendor\sebastian\type\composer.lock
+vendor\sebastian\type\vendor
+
+# flyctl launch added from vendor\sebastian\version\.gitignore
+vendor\sebastian\version\.php_cs.cache
+vendor\sebastian\version\.idea
+
+# flyctl launch added from vendor\spatie\backtrace\.gitignore
+vendor\spatie\backtrace\**\.idea
+vendor\spatie\backtrace\**\.php_cs
+vendor\spatie\backtrace\**\.php-cs-fixer.cache
+vendor\spatie\backtrace\**\.phpunit.result.cache
+vendor\spatie\backtrace\**\build
+vendor\spatie\backtrace\**\composer.lock
+vendor\spatie\backtrace\**\coverage
+vendor\spatie\backtrace\**\docs
+vendor\spatie\backtrace\**\phpunit.xml
+vendor\spatie\backtrace\**\psalm.xml
+vendor\spatie\backtrace\**\vendor
+
+# flyctl launch added from vendor\spatie\flare-client-php\.gitignore
+vendor\spatie\flare-client-php\**\build
+vendor\spatie\flare-client-php\**\composer.lock
+vendor\spatie\flare-client-php\**\vendor
+vendor\spatie\flare-client-php\**\coverage
+vendor\spatie\flare-client-php\**\.php_cs.cache
+vendor\spatie\flare-client-php\**\.php-cs-fixer.cache
+
+# flyctl launch added from vendor\spatie\ignition\.gitignore
+vendor\spatie\ignition\**\.env
+vendor\spatie\ignition\build
+vendor\spatie\ignition\coverage
+vendor\spatie\ignition\node_modules
+vendor\spatie\ignition\vendor
+vendor\spatie\ignition\**\composer.lock
+vendor\spatie\ignition\**\.php_cs.cache
+vendor\spatie\ignition\**\.phpunit.result.cache
+vendor\spatie\ignition\**\phpstan.neon
+vendor\spatie\ignition\**\tests\stubs\Controllers\GitConflictController.php
+vendor\spatie\ignition\**\package-lock.json
+vendor\spatie\ignition\**\.php-cs-fixer.cache
+vendor\spatie\ignition\types
+
+
+# flyctl launch added from vendor\spatie\ignition\resources\compiled\.gitignore
+vendor\spatie\ignition\resources\compiled\**\*
+!vendor\spatie\ignition\resources\compiled\**\.gitignore
+!vendor\spatie\ignition\resources\compiled\**\ignition.css
+!vendor\spatie\ignition\resources\compiled\**\ignition.js
+
+# flyctl launch added from vendor\spatie\ignition\tests\temp\.gitignore
+vendor\spatie\ignition\tests\temp\**\*
+!vendor\spatie\ignition\tests\temp\**\.gitignore
+
+# flyctl launch added from vendor\spatie\laravel-ignition\.gitignore
+vendor\spatie\laravel-ignition\build
+vendor\spatie\laravel-ignition\coverage
+vendor\spatie\laravel-ignition\node_modules
+vendor\spatie\laravel-ignition\vendor
+vendor\spatie\laravel-ignition\**\composer.lock
+vendor\spatie\laravel-ignition\**\.php_cs.cache
+vendor\spatie\laravel-ignition\**\phpstan.neon
+vendor\spatie\laravel-ignition\**\.phpunit.result.cache
+vendor\spatie\laravel-ignition\**\tests\stubs\Controllers\GitConflictController.php
+vendor\spatie\laravel-ignition\**\package-lock.json
+vendor\spatie\laravel-ignition\**\.php-cs-fixer.cache
+
+# flyctl launch added from vendor\symfony\console\.gitignore
+vendor\symfony\console\**\vendor
+vendor\symfony\console\**\composer.lock
+vendor\symfony\console\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\css-selector\.gitignore
+vendor\symfony\css-selector\**\vendor
+vendor\symfony\css-selector\**\composer.lock
+vendor\symfony\css-selector\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\deprecation-contracts\.gitignore
+vendor\symfony\deprecation-contracts\**\vendor
+vendor\symfony\deprecation-contracts\**\composer.lock
+vendor\symfony\deprecation-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\error-handler\.gitignore
+vendor\symfony\error-handler\**\vendor
+vendor\symfony\error-handler\**\composer.lock
+vendor\symfony\error-handler\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\event-dispatcher\.gitignore
+vendor\symfony\event-dispatcher\**\vendor
+vendor\symfony\event-dispatcher\**\composer.lock
+vendor\symfony\event-dispatcher\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\event-dispatcher-contracts\.gitignore
+vendor\symfony\event-dispatcher-contracts\**\vendor
+vendor\symfony\event-dispatcher-contracts\**\composer.lock
+vendor\symfony\event-dispatcher-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\finder\.gitignore
+vendor\symfony\finder\**\vendor
+vendor\symfony\finder\**\composer.lock
+vendor\symfony\finder\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\**\c.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\a.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\dir\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\dir\b.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\a.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\dir\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\dir\b.txt
+
+# flyctl launch added from vendor\symfony\http-foundation\.gitignore
+vendor\symfony\http-foundation\**\vendor
+vendor\symfony\http-foundation\**\composer.lock
+vendor\symfony\http-foundation\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\http-kernel\.gitignore
+vendor\symfony\http-kernel\**\vendor
+vendor\symfony\http-kernel\**\composer.lock
+vendor\symfony\http-kernel\**\phpunit.xml
+vendor\symfony\http-kernel\**\Tests\Fixtures\cache
+vendor\symfony\http-kernel\**\Tests\Fixtures\logs
+
+# flyctl launch added from vendor\symfony\mailer\.gitignore
+vendor\symfony\mailer\**\vendor
+vendor\symfony\mailer\**\composer.lock
+vendor\symfony\mailer\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\mime\.gitignore
+vendor\symfony\mime\**\composer.lock
+vendor\symfony\mime\**\phpunit.xml
+vendor\symfony\mime\**\vendor
+
+# flyctl launch added from vendor\symfony\process\.gitignore
+vendor\symfony\process\**\vendor
+vendor\symfony\process\**\composer.lock
+vendor\symfony\process\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\routing\.gitignore
+vendor\symfony\routing\**\vendor
+vendor\symfony\routing\**\composer.lock
+vendor\symfony\routing\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\service-contracts\.gitignore
+vendor\symfony\service-contracts\**\vendor
+vendor\symfony\service-contracts\**\composer.lock
+vendor\symfony\service-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\string\.gitignore
+vendor\symfony\string\**\composer.lock
+vendor\symfony\string\**\phpunit.xml
+vendor\symfony\string\**\vendor
+
+# flyctl launch added from vendor\symfony\translation\.gitignore
+vendor\symfony\translation\**\vendor
+vendor\symfony\translation\**\composer.lock
+vendor\symfony\translation\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\translation-contracts\.gitignore
+vendor\symfony\translation-contracts\**\vendor
+vendor\symfony\translation-contracts\**\composer.lock
+vendor\symfony\translation-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\uid\.gitignore
+vendor\symfony\uid\**\composer.lock
+vendor\symfony\uid\**\phpunit.xml
+vendor\symfony\uid\**\vendor
+
+# flyctl launch added from vendor\symfony\var-dumper\.gitignore
+vendor\symfony\var-dumper\**\composer.lock
+vendor\symfony\var-dumper\**\phpunit.xml
+vendor\symfony\var-dumper\**\vendor
+
+# flyctl launch added from vendor\symfony\yaml\.gitignore
+vendor\symfony\yaml\**\vendor
+vendor\symfony\yaml\**\composer.lock
+vendor\symfony\yaml\**\phpunit.xml
+
+# flyctl launch added from vendor\theseer\tokenizer\.gitignore
+vendor\theseer\tokenizer\.idea
+vendor\theseer\tokenizer\.php_cs.cache
+vendor\theseer\tokenizer\src\autoload.php
+vendor\theseer\tokenizer\tools
+vendor\theseer\tokenizer\vendor
+vendor\theseer\tokenizer\build
+vendor\theseer\tokenizer\.phpunit.result.cache
+
+# flyctl launch added from vendor\tijsverkoyen\css-to-inline-styles\.gitignore
+vendor\tijsverkoyen\css-to-inline-styles\vendor
+vendor\tijsverkoyen\css-to-inline-styles\**\composer.lock
+vendor\tijsverkoyen\css-to-inline-styles\.phpunit.result.cache
+
+# flyctl launch added from vendor\vlucas\phpdotenv\.gitignore
+vendor\vlucas\phpdotenv\**\.phpunit.result.cache
+vendor\vlucas\phpdotenv\**\composer.lock
+vendor\vlucas\phpdotenv\**\phpstan.neon
+vendor\vlucas\phpdotenv\**\phpstan.tests.neon
+vendor\vlucas\phpdotenv\**\phpunit.xml
+vendor\vlucas\phpdotenv\**\vendor
+
+# flyctl launch added from vendor\voku\portable-ascii\.gitignore
+# composer
+vendor\voku\portable-ascii\**\vendor
+vendor\voku\portable-ascii\**\composer.lock
+
+# php (phpunit)
+vendor\voku\portable-ascii\**\build\logs
+vendor\voku\portable-ascii\**\.phpunit.result.cache
+
+# phpcs fixer
+vendor\voku\portable-ascii\**\.php_cs.cache
+
+# PhpStorm
+vendor\voku\portable-ascii\**\.idea
+
+# flyctl launch added from vendor\webmozart\assert\.gitignore
+vendor\webmozart\assert\**\vendor
+vendor\webmozart\assert\composer.lock
+vendor\webmozart\assert\**\.phpunit.result.cache
+vendor\webmozart\assert\**\.php_cs.cache
+fly.toml
