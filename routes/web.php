@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\TarefasController;
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [TarefasController::class, 'index']);
+Route::get('/', [NewsController::class, 'index']);
+Route::get('/news/{id}', [NewsController::class, 'show']);
+

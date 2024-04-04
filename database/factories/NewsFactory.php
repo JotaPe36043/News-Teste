@@ -5,7 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\News>
  */
 class NewsFactory extends Factory
 {
@@ -19,7 +19,8 @@ class NewsFactory extends Factory
         return [
             'title' => $this->faker->sentence,
             'subtitle' => $this->faker->sentence,
-            'text' => $this->faker->text,
+            'text' => $this->faker->paragraphs(15, true),
+            'journalist' => $this->faker->name,
         ];
     }
 }
